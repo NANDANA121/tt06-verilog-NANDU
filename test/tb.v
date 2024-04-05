@@ -9,7 +9,11 @@ module tb ();
   initial begin
     $dumpfile("tb.vcd");
     $dumpvars(0, tb);
-    #1;
+    #1;500 Error
+
+Looks like something went wrong!
+
+We track these errors automatically, but if the problem persists feel free to contact us. In the
   end
 
   // Wire up the inputs and outputs:
